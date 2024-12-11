@@ -18,6 +18,7 @@ const Home = () => {
         </p>
         <br />
         <p>- By Shivani Talekar.</p>
+        <p>4th year (33)</p>
       </header>
 
       <main className="mt-6 space-y-8">
@@ -196,7 +197,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="relative bg-white p-8 shadow-lg rounded-lg transition-transform transform hover:scale-105 overflow-hidden mt-4">
+        <section className="relative bg-white p-8 shadow-lg rounded-lg transition-transform transform  overflow-hidden mt-4">
           <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 opacity-20 rounded-lg"></div>
           <div className="relative z-10">
             <h2 className="text-xl font-semibold text-blue-600 mb-4">
