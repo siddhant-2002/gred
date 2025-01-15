@@ -30,13 +30,17 @@ const PortalHypertension = () => {
             </h2>
             <ul className="list-disc list-inside text-gray-800 space-y-2 mb-4">
               <li>
-                Portal Hypertension is an abnormal increase in the blood pressure within the portal venous system, which consists of the portal vein and its branches.
+                Portal Hypertension is an abnormal increase in the blood
+                pressure within the portal venous system, which consists of the
+                portal vein and its branches.
               </li>
               <li>
-                The portal vein carries blood from the digestive organs (stomach, intestines, spleen, and pancreas) to the liver.
+                The portal vein carries blood from the digestive organs
+                (stomach, intestines, spleen, and pancreas) to the liver.
               </li>
               <li>
-                Normal portal vein pressure is between 5–10 mmHg. Portal hypertension is defined as a portal vein pressure above 12 mmHg.
+                Normal portal vein pressure is between 5–10 mmHg. Portal
+                hypertension is defined as a portal vein pressure above 12 mmHg.
               </li>
             </ul>
           </div>
@@ -57,7 +61,10 @@ const PortalHypertension = () => {
               </ul>
               <li>Intra-hepatic Causes (Within the liver):</li>
               <ul className="list-disc list-inside text-gray-700 ml-4">
-                <li>Cirrhosis (Most common cause) due to alcohol, hepatitis B/C, non-alcoholic fatty liver disease (NAFLD)</li>
+                <li>
+                  Cirrhosis (Most common cause) due to alcohol, hepatitis B/C,
+                  non-alcoholic fatty liver disease (NAFLD)
+                </li>
                 <li>Fibrosis (scar tissue formation in the liver)</li>
                 <li>Schistosomiasis (parasitic infection)</li>
                 <li>Hepatic fibrosis due to genetic disorders</li>
@@ -79,9 +86,18 @@ const PortalHypertension = () => {
               Pathophysiology
             </h2>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>Increased Resistance: Liver damage (e.g., cirrhosis) leads to scarring and nodules, increasing resistance to blood flow.</li>
-              <li>Increased Portal Blood Flow: Vasodilation in the splanchnic circulation increases blood flow to the portal system.</li>
-              <li>Collateral Circulation: To bypass the high-pressure portal system, blood diverts to smaller veins, causing varices.</li>
+              <li>
+                Increased Resistance: Liver damage (e.g., cirrhosis) leads to
+                scarring and nodules, increasing resistance to blood flow.
+              </li>
+              <li>
+                Increased Portal Blood Flow: Vasodilation in the splanchnic
+                circulation increases blood flow to the portal system.
+              </li>
+              <li>
+                Collateral Circulation: To bypass the high-pressure portal
+                system, blood diverts to smaller veins, causing varices.
+              </li>
             </ul>
           </div>
         </section>
@@ -93,13 +109,63 @@ const PortalHypertension = () => {
               Signs and Symptoms
             </h2>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>Gastrointestinal Bleeding: Esophageal or gastric varices (dilated veins) can rupture, causing vomiting of blood (hematemesis) or black stools (melena).</li>
-              <li>Splenomegaly: Enlarged spleen due to increased blood pressure.</li>
+              <li>
+                Gastrointestinal Bleeding: Esophageal or gastric varices
+                (dilated veins) can rupture, causing vomiting of blood
+                (hematemesis) or black stools (melena).
+              </li>
+              <li>
+                Splenomegaly: Enlarged spleen due to increased blood pressure.
+              </li>
               <li>Ascites: Accumulation of fluid in the abdomen.</li>
-              <li>Caput Medusae: Distended abdominal veins visible under the skin.</li>
-              <li>Hepatic Encephalopathy: Confusion, altered mental status due to toxins bypassing the liver.</li>
+              <li>
+                Caput Medusae: Distended abdominal veins visible under the skin.
+              </li>
+              <li>
+                Hepatic Encephalopathy: Confusion, altered mental status due to
+                toxins bypassing the liver.
+              </li>
               <li>Hemorrhoids: Due to rectal varices.</li>
             </ul>
+          </div>
+        </section>
+
+        <section className="relative bg-white p-8 shadow-lg rounded-lg transition-transform transform overflow-hidden mt-4">
+          <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 opacity-20 rounded-lg"></div>
+          <div className="relative z-10">
+            <h2 className="text-xl font-semibold text-blue-600 mb-4">
+              Image Gallery
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="overflow-hidden rounded-lg">
+                <img
+                  src="ph1.jpg"
+                  alt="Pathophysiology"
+                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
+                />
+                <p className="text-center mt-2 text-gray-700">
+                  Pathophysiology
+                </p>
+              </div>
+              <div className="overflow-hidden rounded-lg">
+                <img
+                  src="ph2.jpg"
+                  alt="Signs and Symptoms"
+                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
+                />
+                <p className="text-center mt-2 text-gray-700">
+                  Signs and Symptoms
+                </p>
+              </div>
+              <div className="overflow-hidden rounded-lg">
+                <img
+                  src="ph3.jpg"
+                  alt="Causes"
+                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
+                />
+                <p className="text-center mt-2 text-gray-700">Causes</p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -110,11 +176,25 @@ const PortalHypertension = () => {
               Diagnosis
             </h2>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>Clinical Examination: Signs of liver disease, ascites, splenomegaly.</li>
-              <li>Laboratory Tests: Liver function tests (ALT, AST, bilirubin), CBC (for anemia or low platelets).</li>
-              <li>Imaging: Ultrasound with Doppler: To detect portal vein thrombosis or ascites. CT Scan/MRI: Detailed imaging of the portal system.</li>
+              <li>
+                Clinical Examination: Signs of liver disease, ascites,
+                splenomegaly.
+              </li>
+              <li>
+                Laboratory Tests: Liver function tests (ALT, AST, bilirubin),
+                CBC (for anemia or low platelets).
+              </li>
+              <li>
+                Imaging: Ultrasound with Doppler: To detect portal vein
+                thrombosis or ascites. CT Scan/MRI: Detailed imaging of the
+                portal system.
+              </li>
               <li>Endoscopy: To detect esophageal and gastric varices.</li>
-              <li>Hepatic Venous Pressure Gradient (HVPG): Measures portal pressure indirectly. Values 12 mmHg indicate significant portal hypertension.</li>
+              <li>
+                Hepatic Venous Pressure Gradient (HVPG): Measures portal
+                pressure indirectly. Values 12 mmHg indicate significant portal
+                hypertension.
+              </li>
             </ul>
           </div>
         </section>
@@ -126,58 +206,47 @@ const PortalHypertension = () => {
               Complications
             </h2>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>Variceal Bleeding: Life-threatening if esophageal or gastric varices rupture.</li>
-              <li>Ascites: Leads to abdominal discomfort, infection (spontaneous bacterial peritonitis).</li>
+              <li>
+                Variceal Bleeding: Life-threatening if esophageal or gastric
+                varices rupture.
+              </li>
+              <li>
+                Ascites: Leads to abdominal discomfort, infection (spontaneous
+                bacterial peritonitis).
+              </li>
               <li>Hepatic Encephalopathy: Mental confusion, coma.</li>
-              <li>Hypersplenism: Low blood cell counts (anemia, thrombocytopenia).</li>
-              <li>Hepatorenal Syndrome: Kidney failure due to liver disease.</li>
+              <li>
+                Hypersplenism: Low blood cell counts (anemia, thrombocytopenia).
+              </li>
+              <li>
+                Hepatorenal Syndrome: Kidney failure due to liver disease.
+              </li>
             </ul>
           </div>
         </section>
 
-           <section className="relative bg-white p-8 shadow-lg rounded-lg transition-transform transform overflow-hidden mt-4">
-          <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 opacity-20 rounded-lg"></div>
-          <div className="relative z-10">
-            <h2 className="text-xl font-semibold text-blue-600 mb-4">
-              Image Gallery
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              <div className="overflow-hidden rounded-lg">
-                <img
-                  src="ph1.jpg"
-                  alt="1"
-                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
-              <div className="overflow-hidden rounded-lg">
-                <img
-                  src="ph2.jpg"
-                  alt="2"
-                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
-              <div className="overflow-hidden rounded-lg">
-                <img
-                  src="ph3.jpg"
-                  alt="3"
-                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
-              <div className="overflow-hidden rounded-lg">
-                <img
-                  src="ph4.jpg"
-                  alt="4"
-                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
-              <div className="overflow-hidden rounded-lg">
-                <img
-                  src="ph5.jpg"
-                  alt="5"
-                  className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
-            </div>
+        <section className="relative bg-white p-8 shadow-lg rounded-lg  overflow-hidden mt-4">
+          <div className="overflow-hidden rounded-lg p-10 m-10">
+            <img
+              src="ph4.jpg"
+              alt="Complications"
+              className="w-full h-full object-cover  "
+            />
+            <br />
+            <br />
+           
+             <p className="text-center mt-2 text-gray-700 font-semibold text-lg">Complications</p>
+            <br />
+            <br />
+        
+          </div>
+          <div className="overflow-hidden rounded-lg p-10 m-10">
+            <img
+              src="ph5.jpg"
+              alt="Treatment"
+              className="w-full h-full object-cover  "
+            />
+            <p className="text-center mt-2 text-gray-700 font-semibold text-lg">Treatment</p>
           </div>
         </section>
 
@@ -188,11 +257,34 @@ const PortalHypertension = () => {
               Treatment
             </h2>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>Managing Underlying Cause: Cirrhosis Management: Alcohol cessation, antiviral therapy for hepatitis. Portal Vein Thrombosis: Anticoagulation therapy.</li>
-              <li>Reducing Portal Pressure: Non-selective Beta-Blockers: Propranolol, Nadolol to reduce portal pressure. Nitrates: To dilate blood vessels and lower pressure.</li>
-              <li>Prevention and Treatment of Variceal Bleeding: Endoscopic Variceal Ligation (EVL): Banding of varices. Sclerotherapy: Injection to shrink varices. Vasoactive Drugs: Octreotide to reduce blood flow.</li>
-              <li>Managing Ascites: Salt Restriction and Diuretics: Spironolactone, Furosemide. Paracentesis: Removal of fluid from the abdomen. Albumin Infusion: To prevent kidney failure during large-volume paracentesis.</li>
-              <li>Advanced Interventions: Transjugular Intrahepatic Portosystemic Shunt (TIPS): A stent placed between the portal and hepatic veins to reduce pressure. Liver Transplantation: For end-stage liver disease.</li>
+              <li>
+                Managing Underlying Cause: Cirrhosis Management: Alcohol
+                cessation, antiviral therapy for hepatitis. Portal Vein
+                Thrombosis: Anticoagulation therapy.
+              </li>
+              <li>
+                Reducing Portal Pressure: Non-selective Beta-Blockers:
+                Propranolol, Nadolol to reduce portal pressure. Nitrates: To
+                dilate blood vessels and lower pressure.
+              </li>
+              <li>
+                Prevention and Treatment of Variceal Bleeding: Endoscopic
+                Variceal Ligation (EVL): Banding of varices. Sclerotherapy:
+                Injection to shrink varices. Vasoactive Drugs: Octreotide to
+                reduce blood flow.
+              </li>
+              <li>
+                Managing Ascites: Salt Restriction and Diuretics:
+                Spironolactone, Furosemide. Paracentesis: Removal of fluid from
+                the abdomen. Albumin Infusion: To prevent kidney failure during
+                large-volume paracentesis.
+              </li>
+              <li>
+                Advanced Interventions: Transjugular Intrahepatic Portosystemic
+                Shunt (TIPS): A stent placed between the portal and hepatic
+                veins to reduce pressure. Liver Transplantation: For end-stage
+                liver disease.
+              </li>
             </ul>
           </div>
         </section>
@@ -204,9 +296,18 @@ const PortalHypertension = () => {
               Prognosis
             </h2>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>The prognosis depends on the underlying cause and severity.</li>
-              <li>Cirrhosis-related portal hypertension has a poorer outcome, especially with complications like variceal bleeding and ascites.</li>
-              <li>TIPS and liver transplantation improve survival in selected patients.</li>
+              <li>
+                The prognosis depends on the underlying cause and severity.
+              </li>
+              <li>
+                Cirrhosis-related portal hypertension has a poorer outcome,
+                especially with complications like variceal bleeding and
+                ascites.
+              </li>
+              <li>
+                TIPS and liver transplantation improve survival in selected
+                patients.
+              </li>
             </ul>
           </div>
         </section>
@@ -220,8 +321,14 @@ const PortalHypertension = () => {
             <ul className="list-disc list-inside text-gray-700 mb-4">
               <li>Avoid Alcohol: To prevent cirrhosis.</li>
               <li>Vaccination: Against hepatitis B.</li>
-              <li>Screening: Regular endoscopy in cirrhotic patients to check for varices.</li>
-              <li>Healthy Lifestyle: Managing obesity, diabetes, and avoiding hepatotoxic drugs.</li>
+              <li>
+                Screening: Regular endoscopy in cirrhotic patients to check for
+                varices.
+              </li>
+              <li>
+                Healthy Lifestyle: Managing obesity, diabetes, and avoiding
+                hepatotoxic drugs.
+              </li>
             </ul>
           </div>
         </section>
